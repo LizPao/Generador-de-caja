@@ -7,6 +7,40 @@
   pointer-events: none;
 }
 
+p{
+  display: flex;
+}
+.red, .blue, .violet,.black, .green, .pink, .yellow{
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+
+.violet{
+  background-color: violet;
+}
+.black{
+  background-color: black;
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.pink{
+  background-color: pink;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
